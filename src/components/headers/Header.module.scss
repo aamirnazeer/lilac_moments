@@ -1,9 +1,20 @@
 @import '../../sass/abstracts/variables';
 
-.red {
-  color: $base-color;
+.header {
+  outline: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 0 1rem 0 1rem;
 }
 
-.under {
-  text-decoration: underline;
+.headerWrappers {
+  display: flex;
+
+  div {
+    padding: 1rem;
+    align-self: center;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-large;
+  }
 }
